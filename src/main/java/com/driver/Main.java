@@ -1,13 +1,13 @@
 package com.driver;
 public class product{
 public int  product(int x , int y){
-  return 0;
+  return x*y;
   }
   public int  product(int x , int y , int z){
-    return 0;
+      return x*y;
   }
   public double product(Double x , Double y){
-    return 0;
+    return x*y;
 }
 public class Main {
 product p = new product();
